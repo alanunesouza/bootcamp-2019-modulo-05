@@ -92,3 +92,39 @@ export const IssueList = styled.ul`
     }
   }
 `;
+
+export const Filter = styled.div`
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+
+  button {
+    margin: 0 10px;
+    padding: 5px;
+    background-color: #7159c1;
+    border-radius: 3px;
+    border: 1px solid #7159c1;
+    font-size: 12px;
+    font-weight: bold;
+    color: #fff;
+  }
+`;
+
+export const PageActions = styled.div`
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+
+  button {
+    margin: 0 10px;
+    padding: 5px;
+    background-color: #7159c1;
+    border-radius: 3px;
+    border: 1px solid #7159c1;
+    font-size: 12px;
+    font-weight: bold;
+    color: #fff;
+  }
+`;
